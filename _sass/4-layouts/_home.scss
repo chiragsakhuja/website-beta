@@ -207,6 +207,7 @@
   .article-content-first {
     padding: 20px;
     color: $text;
+    background-color: rgba(0, 0, 0, 0.7);
     .article-tag {
       .tag {
         font-size: 12px;
@@ -220,6 +221,7 @@
     }
     .article-title {
       margin-bottom: 20px;
+      max-width: 750px;
       font-size: 30px;
       line-height: 30px;
       font-weight: normal;
@@ -229,12 +231,12 @@
       }
     }
     .article-excerpt {
-      max-width: 450px;
-      margin-bottom: 30px;
+      max-width: 750px;
       font-size: 14px;
       line-height: 23px;
     }
     .button {
+      margin-top: 30px;
       font-size: 14px;
       font-weight: 700;
       border: 1px solid rgba(201, 211, 231, 50);
@@ -353,7 +355,7 @@
       }
     }
     .article-excerpt {
-      margin-bottom: 0;
+      margin-bottom: 0px;
       font-size: 15px;
       line-height: 25px;
       color: $gray-blue;
@@ -387,7 +389,7 @@
         line-height: 45px;
       }
       .article-excerpt {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
       }
     }
   }
@@ -414,7 +416,7 @@
 @media only screen and (min-width: 768px) {
   .article-first {
     .article-content-first {
-      padding: 60px 40px 0;
+      padding: 60px 40px;
     }
   }
 }

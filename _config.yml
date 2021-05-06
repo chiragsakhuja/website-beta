@@ -1,34 +1,33 @@
 #-------------------------------
 # General Site Settings
 
-title: Galada Theme | Theme for Jekyll
+title: Chirag Sakhuja
 description: Galada is an easy and simple theme for Jekyll. Dark colors, give it a special exquisite look. A careful approach to design and features make it an ideal solution for a personal blog. # this means to ignore newlines until "baseurl:"
-baseurl: "/galada" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://chiragsakhuja.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
 # About Section
-author-name:   Natali Anderson
+author-name:   Chirag Sakhuja
 author-avatar: 09.jpg
 
 
 #-------------------------------
 # Contact links
-facebook:  https://facebook.com/ # Add your Facebook handle
-twitter:   https://twitter.com/ # Add your Facebook handle
-instagram: https://www.instagram.com/ # Add your Facebook handle
-pinterest: https://www.pinterest.com/ # Add your Facebook handle
+github  :  https://github.com/chiragsakhuja
+linkedin:  https://linkedin.com/in/chirag-sakhuja-36331651
+instagram: https://www.instagram.com/chirag_sakhuja
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 
 
 #-------------------------------
@@ -50,10 +49,10 @@ plugins:
   - jekyll-sitemap
 
 paginate: 7
-paginate_path: "/page/:num"
+paginate_path: "/blog/page/:num"
 
 include:
-  - _pages
+  - pages
 
 sass:
   sass_dir: _sass
